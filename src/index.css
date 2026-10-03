@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+
+body {
+  font-family: Inter;
+}
+
+nav {
+  position: relative;
+}
+
+.firstLink::before {
+  content: "";
+  position: absolute;
+  width: 74px;
+  height: 3px;
+  background-color: #ef9039;
+  bottom: -8px;
+  left: -15px;
+}
+
+.box-5star h2::after {
+  content: "";
+  position: absolute;
+  width: 234px;
+  height: 9px;
+  background-color: #ef9039;
+  left: 0;
+  bottom: 0px;
+}
+
+.tractorSecTwo h2::after {
+  content: "";
+  position: absolute;
+  width: 314px;
+  height: 9px;
+  background-color: #ef9039;
+  left: 0;
+  bottom: 0px;
+}
+
+.arrow::after{
+    content: "";
+    position: absolute;
+
+}
+
+
+.arrow-left {
+    position: absolute;
+    right: -42px;
+    top: 35%;
+}
+.arrow-right {
+    position: absolute;
+    left: -42px;
+    top: 35%;
+}
